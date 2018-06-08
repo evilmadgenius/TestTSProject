@@ -1,9 +1,11 @@
 "use strict";
 var firstName = "ross";
 var lastname = "geller";
+var middlename = "matthew";
 var person = {
     firstName: firstName,
-    lastname: lastname
+    lastname: lastname,
+    middlename: middlename
 };
 console.log(person);
 var newp = function (firstName, lastname, age) {

@@ -1,9 +1,11 @@
 let firstName = "ross";
 let lastname = "geller";
+let middlename = "matthew";
 
 let person = {
     firstName,
-    lastname
+    lastname,
+    middlename
 }
 
 console.log(person);
